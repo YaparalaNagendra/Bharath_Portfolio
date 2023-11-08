@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul&family=Roboto+Slab&display=swap');
+
+.header_section{
+    color: black;
+  font-family: 'Asul', serif;
+  font-size: 1.5rem;
+  background-color: #B2C8BA;
+  font-weight: bolder;
+}
+.right{
+    margin-left: 20%;
+}
+.nav-link{
+    color: #110d0d;
+}
+  
+  .navbar a.navbar-brand,
+  .navbar .navbar-toggler-icon {
+    color: #000; /* Change the font and icon color to black */
+  }
+.sk{
+    border-top: 5px solid black;
+    margin: 30px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#Skills{
+    background-color: #CAEDFF;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+   
+}
+.nav-item{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.centered-navbar {
+    display: flex;
+    justify-content: center;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 800px;  
+}
+#main_container{
+    padding: 10%;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+}
+.left{
+    padding: 3%;
+    width: 600px;
+    height: 500px;
+    
+}
+.left2{
+    padding: 3%;
+    width: 900px;
+    height: 200px;
+    font-size: 1.2rem;
+}
+.left2 h1{
+    margin-bottom: 25px;
+}
+.imlis{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.imlis:hover{
+    cursor: pointer;
+    width: 270px;
+    height: 270px;
+}
+.plist{
+    align-items: center;
+   
+}
+.list{
+    position: absolute;
+    border-top: 3px solid black;
+    width: 300px;
+    padding-top: 10px;
+}
+#projects{
+    position: relative;
+    padding: 3%;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+}
+.two{
+    margin-left: 800px;
+    margin-top: 100px;
+}
+.one{
+    margin-top: 200px;
+    margin-left: 400px;
+}
+.three{
+    margin-left: 1200px;
+}
+.four{
+    margin-top: 300px;
+}
+
+#b2{
+    margin:20px 0px;
+    background-color: black;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    animation: colorChange 2s infinite;
+    
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+h1,h2{
+    margin-bottom: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.headbott{
+    margin-top: 180px;
+    margin-bottom:100px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.change{
+    font-weight: bold;
+}
+i{
+    margin-left: 20px;
+}
+#footer{
+    margin-top: 700px;
+   text-align: center;
+   background-color: #D0BFFF;
+   font-family: 'Roboto Slab', serif;
+   padding: 20px;
+}
+.icons{
+    margin-bottom: 20px;
+}
+.last{
+    margin-top: 30px;
+    color: white;
+}
+
+
+  @media screen and (max-width: 768px) {
+    /* Your mobile styles go here */
+    
+    .profile {
+        height: 221px;
+        width: 200px;
+        border-radius: 100%;
+        position: absolute;
+        margin-left: 20px;
+    }
+    .left {
+        padding: 3%;
+        width: 296px;
+        height: 464px;
+        margin-top: 240px;
+    }
+    .right {
+         margin-left: 0%; 
+        margin-top: 570px;
+    }
+    .sk {
+        border-top: 5px solid black;
+        margin: 30px; 
+        padding: 12px;
+        display: flex;
+        justify-content: space-between;
+        /* text-align: center; */
+    }
+    #Skills {
+        background-color: #CAEDFF;
+        /* display: flex; */
+        display: block;
+        /* justify-content: center; */
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+    }
+    .parask{
+        margin-left: 20px;
+    }
+    .left2 {
+        padding: 3%;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    button a{
+        animation: colorChange 2s infinite;
+    }
+    
+    @keyframes colorChange {
+        0% { color: wheat; }
+        50% { color: white; }
+        100% { color: yellow; }
+    }
+    .fade-in p {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+#projects{
+    position: static;
+    padding: 3%;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+}#projects h2{
+    margin-bottom: 17px;
+}
+.two{
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.one{
+    margin-top: 60px;
+    margin-left: 0px;
+}
+.three{
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.four{
+    margin-top: 40px;
+}
+.list {
+    position: static;
+    border-top: 3px solid black;
+    width: 347px;
+    padding-top: 10px;
+}
+#footer{
+    margin-top: 175px;
+   text-align: center;
+   background-color: #D0BFFF;
+   font-family: 'Roboto Slab', serif;
+   padding: 20px;
+}
+.centered-navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    display: block;
+}
+
+.navbar-collapse {
+    display: none;
+}
+
+.navbar-collapse.show {
+    display: block;
+}
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Your tablet-specific CSS rules */
+
+    #footer {
+        margin-top: 700px;
+        text-align: center;
+        background-color: #D0BFFF;
+        font-family: 'Roboto Slab', serif;
+        padding: 20px;
+        width: 185%;
+    }
+    #Skills {
+        background-color: #CAEDFF;
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto Slab', serif;
+        width: 185%;
+    }
+    .header_section {
+        color: black;
+        font-family: 'Asul', serif;
+        font-size: 1.5rem;
+        background-color: #B2C8BA;
+        font-weight: bolder;
+        width: 185%;
+    }
+  }
